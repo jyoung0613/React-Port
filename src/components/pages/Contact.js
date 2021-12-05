@@ -13,7 +13,70 @@ export default function Contact() {
 
     return (
         <Container>
+            <section className='contact mb-5'>
+                <h1 className='text-center'>Get in touch</h1>
+                    <p className='text-center mx-auto'>I am available for work, freelance projects, startups, or paid internships.</p>
+                    <hr/>
 
+                    <Row>
+                        <Col md={9}>
+                            <Form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
+
+                                <Row>
+                                    <Form.Group className='col-md-6 mt-3'>
+                                        <FloatingLabel controlId='floatingInput' label='Name'>
+                                            <Form.Control {...register('name', { required: true, maxLength: 30 })} placeholder='Name' />
+                                            {errors.name?.type === 'required' && `*Required`}
+                                        </FloatingLabel>
+                                    </Form.Group>
+                                    <Form.Group className='col-md-6 mt-3'>
+                                        <FloatingLabel controlId='floatingInput' label='Email'>
+                                            <Form.Control {...register('email')} placeholder='Email' />
+                                            {errors.email?.type === 'required' && `*Required`}
+                                        </FloatingLabel>
+                                    </Form.Group>
+                                </Row>
+
+                                <Row>
+                                    <Form.Group className='col-md-12 mt-3'>
+                                        <FloatingLabel controlId='floatingInput' label='Subject'>
+                                            <Form.Control {...register('subject', { required: true, maxLength: 30 })} placeholder='Subject' />
+                                            {errors.subject?.type === 'required' && `*Required`}
+                                        </FloatingLabel>
+                                    </Form.Group>
+                                </Row>
+
+                                <Row>
+                                    <Form.Group className='col-md-12 mt-3'>
+                                        <FloatingLabel controlId='floatingInput' label='Message'>
+                                            <Form.Control as='textarea' style={{ height: '100px' }} {...register('message', { required: true, maxLength: 263 })} placeholder='Message' />
+                                            {errors.message?.type === 'required' && `*Required`}
+                                        </FloatingLabel>
+                                    </Form.Group>
+                                </Row>
+
+                                <p>DEV NOTE: This app is not connected to a back-end server, so messages cannot be transmitted via this form.</p>
+                                {/* <p>{result}</p> */}
+                                <Button variant='primary' type='submit'>Send</Button>
+                            </Form>
+                        </Col>
+
+                        <Col md={3} className='mt-2 text-center'>
+                            <ul className='list-unstyled mb-0'>
+                                <li className='cmb-fa-nolink mb-3'><FaMapMarker />
+                                    <p>Ogden, UT 84401, USA</p>
+                                </li>
+                                <li className='cmb-fa-nolink my-3'><FaPhone />
+                                    <p>+ 01 801 458 8490</p>
+                                </li>
+                                <li className='cmb-fa-nolink my-3'><FaEnvelope />
+                                    <p>jwyoung0613@gmail.com</p>
+                                </li>
+                            </ul>
+                        </Col>
+                        
+                    </Row>
+            </section>
         </Container>
     );
 }
