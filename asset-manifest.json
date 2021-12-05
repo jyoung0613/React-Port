@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/React-Port/static/css/main.5909b24e.chunk.css",
+    "main.js": "/React-Port/static/js/main.160e0de7.chunk.js",
+    "main.js.map": "/React-Port/static/js/main.160e0de7.chunk.js.map",
+    "runtime-main.js": "/React-Port/static/js/runtime-main.f9fe994e.js",
+    "runtime-main.js.map": "/React-Port/static/js/runtime-main.f9fe994e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/React-Port/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.90152166.chunk.js": "/React-Port/static/js/2.90152166.chunk.js",
+    "static/js/2.90152166.chunk.js.map": "/React-Port/static/js/2.90152166.chunk.js.map",
+    "index.html": "/React-Port/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/React-Port/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.5909b24e.chunk.css.map": "/React-Port/static/css/main.5909b24e.chunk.css.map",
+    "static/js/2.90152166.chunk.js.LICENSE.txt": "/React-Port/static/js/2.90152166.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker.32d15cd3.png": "/React-Port/static/media/BudgetTracker.32d15cd3.png",
+    "static/media/CodeQuiz.3b298656.png": "/React-Port/static/media/CodeQuiz.3b298656.png",
+    "static/media/FlightPlan.ace44ed5.png": "/React-Port/static/media/FlightPlan.ace44ed5.png",
+    "static/media/Headshot-Square.9d10cb86.jpg": "/React-Port/static/media/Headshot-Square.9d10cb86.jpg",
+    "static/media/Johns-Resume.14b7a9e3.pdf": "/React-Port/static/media/Johns-Resume.14b7a9e3.pdf",
+    "static/media/NoteTaker.06e33788.png": "/React-Port/static/media/NoteTaker.06e33788.png",
+    "static/media/TechBlog.11e9c7df.png": "/React-Port/static/media/TechBlog.11e9c7df.png",
+    "static/media/WeatherDashboard.912d93d4.png": "/React-Port/static/media/WeatherDashboard.912d93d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9fe994e.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.90152166.chunk.js",
+    "static/css/main.5909b24e.chunk.css",
+    "static/js/main.160e0de7.chunk.js"
+  ]
+}
