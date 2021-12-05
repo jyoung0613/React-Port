@@ -2,6 +2,7 @@
   "name": "react-port",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jyoung0613.github.io/React-Port",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
