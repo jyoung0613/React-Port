@@ -27,7 +27,7 @@ export default function About() {
                 <div className='cmb-neutralblock p-4'>
                     <h4>Could we work well together?</h4>
                     <p>
-                        I look forward to joining a team with a company that will help push me to learn quickly, provide a large group of inspirational mentors, and allow me to gain valuable experience.  Durinig my new journey, adding to this portfolio page, will keep anyone instested with continual updates of my growing skillset.
+                        I look forward to joining a team with a company that will help push me to learn quickly, provide a large group of inspirational mentors, and allow me to gain valuable experience.  Durinig my new journey, adding to this portfolio page, will keep anyone intrested with continual updates of my growing skillset.
                         If it seems like we might work well together, please reach out to me!  I look forward to hearing from you.
                     </p>
                 </div>

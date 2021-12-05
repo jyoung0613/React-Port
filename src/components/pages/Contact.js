@@ -10,6 +10,7 @@ export default function Contact() {
     const { register, formState: { errors }, handleSubmit } = useForm();
     const [result, setResult] = useState('');
     const onSubmit = (data) => setResult(JSON.stringify(data));
+    console.log(result);
 
     return (
         <Container>
@@ -74,7 +75,7 @@ export default function Contact() {
                                 </li>
                             </ul>
                         </Col>
-                        
+
                     </Row>
             </section>
         </Container>

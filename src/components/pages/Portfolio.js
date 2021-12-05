@@ -1,10 +1,10 @@
 import React from 'react';
 import CodeQuiz from '../../assets/CodeQuiz.png';
-import BudgetTracker from '../../assets/BudgetTracker';
-import TechBlog from '../../assets/TechBlog';
-import FlightPlan from '../../assets/FlightPlan';
-import WeatherDashboard from '../../assets/WeatherDashboard';
-import NoteTaker from '../../assets/NoteTaker';
+import BudgetTracker from '../../assets/BudgetTracker.png';
+import TechBlog from '../../assets/TechBlog.png';
+import FlightPlan from '../../assets/FlightPlan.png';
+import WeatherDashboard from '../../assets/WeatherDashboard.png';
+import NoteTaker from '../../assets/NoteTaker.png';
 
 
 export default function Portfolio() {
@@ -104,7 +104,7 @@ export default function Portfolio() {
                                     <p className='card-text'>
                                         HTML | CSS | JS
                                     </p>
-                                    <a href='https://sheltered-journey-68361.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='btn btn-primary'>Deployed App</a>
+                                    <a href='https://powerful-stream-03341.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='btn btn-primary'>Deployed App</a>
                                     <a href='https://github.com/jyoung0613/note-takr' target='_blank' rel='noreferrer noopener' className='btn btn-secondary'>GitHub Repo</a>
                                 </div>
                             </div>
