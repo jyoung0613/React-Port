@@ -1,24 +1,44 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "React-Port",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "BudgetTracker.png",
+      "type": "image/png",
+      "sizes": "404x404"
+    },
+    {
+      "src": "CodeQuiz.png",
+      "type": "image/png",
+      "sizes": "357x358"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "339x339",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "FlightPlan.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "358x358"
     },
     {
-      "src": "logo512.png",
+      "src": "NoteTaker.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "383x383"
+    },
+    {
+      "src": "TechBlog.png",
+      "type": "image/png",
+      "sizes": "356x355"
+    },
+    {
+      "src": "WeatherDashboard.png",
+      "type": "image/png",
+      "sizes": "356x356"
     }
   ],
-  "start_url": ".",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
