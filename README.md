@@ -17,7 +17,7 @@
 - GraphQL
 - Apollo Server
 
-SCREENSHOTS: Homepage, containing funds both added and subtracted while on- and off-line.
+SCREENSHOTS: 
 
 ![React Port](/src/assets/ReactPort.png)
 ![React Port 1](/src/assets/ReactPortOne.png)
