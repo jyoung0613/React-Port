@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedinIn, FaEnvelope, FaStackOverflow } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer() {
