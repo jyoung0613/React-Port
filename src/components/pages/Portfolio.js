@@ -1,6 +1,6 @@
 import React from 'react';
 import CodeQuiz from '../../assets/CodeQuiz.png';
-import BudgetTracker from '../../assets/BudgetTracker.png';
+import AnimeSearch from '../../assets/animesearch.png';
 import TechBlog from '../../assets/TechBlog.png';
 import FlightPlan from '../../assets/FlightPlan.png';
 import WeatherDashboard from '../../assets/WeatherDashboard.png';
@@ -35,13 +35,13 @@ export default function Portfolio() {
                         <div className='col-lg-4 col-md-6 p-4'>
                             <div className='card'>
                                 <div className='bg-image'>
-                                    <img src={BudgetTracker} className='img-fluid' alt='Screenshot from Budget Tracker App'/>
+                                    <img src={AnimeSearch} className='img-fluid' alt='Screenshot from Anime Search App'/>
                                 </div>
                                 <div className='card-body'>
-                                    <h5 className='card-title'>Budget Tracker</h5>
-                                    <p className='card-text'>Heroku | MongoDB | Express | Node</p>
-                                    <a href='https://sleepy-tundra-40450.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='btn btn-primary'>Deployed App</a>
-                                    <a href='https://github.com/jyoung0613/budget_trackr' target='_blank' rel='noreferrer noopener' className='btn btn-secondary'>GitHub Repo</a>
+                                    <h5 className='card-title'>Anime Search</h5>
+                                    <p className='card-text'>Heroku | MongoDB | Express | Node | React</p>
+                                    <a href='https://protected-mesa-73098.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='btn btn-primary'>Deployed App</a>
+                                    <a href='https://github.com/jyoung0613/Project-3' target='_blank' rel='noreferrer noopener' className='btn btn-secondary'>GitHub Repo</a>
                                 </div>
                             </div>
                         </div>
