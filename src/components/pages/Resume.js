@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFileDownload } from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
-import CV from "../../assets/Johns-Resume.v2.pdf";
+import CV from "../../assets/Johns-Resume.v3.pdf";
 
 export default function Resume() {
     return (
