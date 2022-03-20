@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFileDownload } from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
-import CV from "../../assets/Johns-Resume.pdf";
+import CV from '../../assets/Johns-Resume.pdf';
 
 export default function Resume() {
     return (
@@ -56,6 +56,7 @@ export default function Resume() {
                                     <li>Heroku</li>
                                     <li>Insomnia</li>
                                     <li>Visual Studio Code</li>
+                                    <li>Graph QL</li>
                                 </ul>
                             </div>
 
