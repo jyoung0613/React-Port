@@ -39,6 +39,8 @@ export default function Resume() {
                                     <li>NPM</li>
                                     <li>MySQL</li>
                                     <li>RESTful API</li>
+                                    <li>Graph QL</li>
+                                    <li>Apollo Server</li>
                                 </ul>
                             </div>
 
@@ -56,7 +58,6 @@ export default function Resume() {
                                     <li>Heroku</li>
                                     <li>Insomnia</li>
                                     <li>Visual Studio Code</li>
-                                    <li>Graph QL</li>
                                 </ul>
                             </div>
 
