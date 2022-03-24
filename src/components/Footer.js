@@ -18,7 +18,7 @@ function Footer() {
                     <a className='cmb-fa m-2' href='https://www.linkedin.com/in/john-young-uofubootcamp-fullstack-developer/' target='_blank' rel="noreferrer">
                         <FaLinkedinIn />
                     </a>
-                    <a className='cmb-fa m-2' href='https://github.com/jyoung0613/React-Port' target='_blank' rel="noreferrer">
+                    <a className='cmb-fa m-2' href='https://github.com/jyoung0613' target='_blank' rel="noreferrer">
                         <FaGithub />
                     </a>
                     <a className='cmb-fa m-2' href='mailto:jwyoung0613@gmail.com?subject=Contact from Portfolio Site' target='_blank' rel="noreferrer">
